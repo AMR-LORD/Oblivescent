@@ -3,30 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oblivescent</title>
+    <title>Pagination Example</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header>
-        <nav >
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Courses.html">Courses</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="/learn">learn</a></li>
-                <li><a href="contact.html">Contact</a></li>
+    <h1>User List with Pagination</h1>
+    
+    <div id="user-container" class="grid-container"></div>
 
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>Welcome to Oblivescent</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Oblivescent</p>           
-    </footer>    
+    <div class="pagination">
+        <button id="prevBtn">Previous</button>
+        <span id="pageNumber">1</span>
+        <button id="nextBtn">Next</button>
+    </div>
+
+    <script src="assets/JS/Script.js"></script>
 </body>
 </html>
